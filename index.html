@@ -73,9 +73,11 @@
     </video>
     <br>
     <!--Este solo aparece el slader para reproducir audio-->
+    <!--
     <audio autoplay controls>
         <source src="Audios/Baby Father 2.0.mp3" type="audio/mp3">
     </audio>
+    -->
     <br>
     <!--El primero no soporta el documento
         El segundo solo podes verlo mediante un direccion-->
@@ -84,9 +86,11 @@
     </object>
     <br>
     <!--Este si reproduce directo-->
+    <!--
     <iframe src="Videos/Base de Datos II - Youtune Mejorado.mp4" frameborder="0" width="800" height="600">
         Video Proyecto
     </iframe>
+    -->
     <table>
         <caption>
             Registros - 2024
@@ -97,6 +101,7 @@
             <col class="Estudiante">
         </colgroup>
         -->
+        <!--Cabecera tabla-->
         <thead>
             <tr>
                 <!--rowspan Dos espacios para abajo-->
@@ -109,6 +114,7 @@
                 <th>Apellido</th>
             </tr>
         </thead>
+        <!--Cuerpo tabla-->
         <tbody>
             <tr>
                 <td>653801</td>
@@ -116,6 +122,83 @@
                 <td>Parra Zegarra</td>
             </tr>
         </tbody>
+        <!--Pie tabla (opcional)-->
+        <tfoot>
+            <tr>
+                <td>65027A</td>
+                <td>Angelo</td>
+            </tr>
+        </tfoot>
     </table>
+    <!--form para declarar un formulario-->
+    <form action="">
+        <!--Fieldset crear el formulario-->
+        <fieldset>
+            <!--lengend asignar y dividir por sesiones a un formulario-->
+            <legend style="text-align: center;">Formulario - 2024</legend>
+            <!--div para agrupar texto o numeros-->
+            <div style="text-align: center;">
+                <label for="nombre">Nombre:</label>
+                <!--input campo de texto-->
+                <input type="text" name="nombre">
+            </div><br>
+            <div style="text-align: center;">
+                <label for="correo">Correo electronico:</label>
+                <input type="email" name="correo">
+            </div><br>
+            <div style="text-align: center;">
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" name="contraseña">
+            </div>
+            <div style="text-align: center;">
+                <label>Genero:</label><br>
+                <input type="radio" name="genero" value="masculino">
+                <label for="genero_masculino">Masculino</label><br>
+                <input type="radio" name="genero" value="femenino">
+                <label for="genero_femenino">Femenino</label><br>
+                <input type="radio" name="genero" value="otro">
+                <label for="otros">Otros</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend style="text-align: center;">Datos complementarios</legend>
+            <div>
+                <label>Intereses:</label><br>
+                <input type="checkbox" id="interes_1" name="intereses[]" value="deportes">
+                <label for="interes_1">Deportes</label><br>
+                <input type="checkbox" id="interes_2" name="intereses[]" value="tecnologia">
+                <label for="interes_2">Tecnología</label><br>
+                <input type="checkbox" id="interes_3" name="intereses[]" value="viajes">
+                <label for="interes_3">Viajes</label>
+              </div>
+              <div>
+                <label for="pais">País:</label>
+                <select id="pais" name="pais">
+                  <option value="usa">Estados Unidos</option>
+                  <option value="mexico">México</option>
+                  <option value="espana">España</option>
+                  <option value="argentina">Argentina</option>
+                </select>
+              </div>
+              <div>
+                <label for="color_favorito">Color Favorito:</label>
+                <input list="colores" id="color_favorito" name="color_favorito">
+                <datalist id="colores">
+                  <option value="Rojo">
+                  <option value="Verde">
+                  <option value="Azul">
+                  <option value="Amarillo">
+                  <option value="Naranja">
+                </datalist>
+              </div>
+              <div>
+                <label for="archivo">Seleccionar Archivo:</label>
+                <input type="file" id="archivo" name="archivo">
+              </div>
+          </fieldset>
+          <div>
+            <input type="submit" value="Enviar">
+          </div>
+    </form>
 </body>
 </html>
