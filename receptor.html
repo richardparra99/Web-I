@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Receptor de datos</title>
+    </head>
+    <body>
+        <h1>Datos recibidos</h1>
+        <p>Estos solo funciona si el formulario fue enviado por el metodo GET. Para ver los datos recibidos enviados por el método POST, abrir en las heramientas de desarrollo de chrome (<kbd>F12</kbd>) en la pestaña de Red</p>
+
+        <div id="resultados">
+
+        </div>
+        <script>
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const entries = urlParams.entries();
+
+            let html = "";
+            for(const entry of entries) {
+                html += `<li><strong>${entry[0]}</strong>: ${entry[1]}</li>`;
+            }
+            document.getElementById("resultados").innerHTML = `<ul>${ html }</ul>`;
+        </script>
+    </body>
+</html>
