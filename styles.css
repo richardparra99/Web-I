@@ -13,3 +13,13 @@
 #dataWarehousing {
     color: green;
 }
+
+#columna{
+    color: blue;
+}
+
+h1::before, h1::after{
+    content: "!";
+    color: blue;
+    font-family: webdings;
+}
