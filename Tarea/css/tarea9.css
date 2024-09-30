@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Tofino Regular', sans-serif;
+    background-color: rgb(173, 172, 172); /* Color de fondo gris claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /*overflow: hidden;*/
+    max-height: 120vh;
+    margin: 20px 0;
+}
+
+h1 {
+    font-family: 'Tofino Regular';
+    font-size: 17px; /* Tamaño más grande para el h1 */
+    color: #4188e4; /* Color azul como en la imagen */
+    margin-bottom: 5px;
+    font-weight: lighter;
+    padding: 0 60px;
+}
+
+h2 {
+    font-family: 'Tofino Regular';
+    font-size: 15px;
+    color: #1a73e8; /* Color azul */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+    padding: 0 40px;
+}
+
+p {
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 10px; /* Ajuste de tamaño para mayor legibilidad */
+    line-height: 1.6; /* Ajuste para mejorar legibilidad */
+    padding: 0 40px;
+}
+
+img {
+    display: block;
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+    max-width: 350px; /* Limita el ancho máximo de la imagen */
+    height: auto;
+    margin-bottom: 5px;
+}
+
+img.imagen2 {
+    float: left; /* Alinea la imagen a la izquierda */
+    margin: 0px 10px 50px 10px; /* Ajusta el margen para darle espacio al texto */
+    width: 100%; /* Fija el ancho de la imagen */
+    height: auto;
+    max-width: 190px; /* Limita el tamaño máximo de la imagen */
+    margin-bottom: 0px;
+    padding-left: 30px;
+}
+
+img.imagen3 {
+    float: right; /* Alinea la imagen a la izquierda */
+    margin: 0px 10px 50px 10px; /* Ajusta el margen para darle espacio al texto */
+    width: 100%; /* Fija el ancho de la imagen */
+    height: auto;
+    max-width: 250px; /* Limita el tamaño máximo de la imagen */
+    margin-bottom: 0px;
+    padding-right: 30px;
+}
+
+div p.parrafo1{
+    font-size: 10px;
+    padding: 0 60px;
+}
+
+div p.parrafo2 {
+    font-size: 10px;
+    padding: 0 40px;
+}
+
+@font-face {
+    font-family: 'Tofino Regular';
+    src: url('fonts/tofino_regular-webfont.woff'), url('fonts/tofino_regular-webfont.woff2');
+}

@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Tofino Regular', sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Cambia de center a flex-start */
+    min-height: 100vh; /* Cambia height por min-height */
+}
+
+main {
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    overflow: auto; /* Asegura que se pueda hacer scroll dentro del main si es necesario */
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+div h1 {
+    font-family: 'Tofino Regular';
+    font-size: 17px; /* Tamaño más grande para el h1 */
+    color: black; 
+    margin-bottom: 5px;
+    font-weight: lighter;
+    padding: 0 75px;
+}
+
+div p {
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 10px; /* Ajuste de tamaño para mayor legibilidad */
+    line-height: 1.6; /* Ajuste para mejorar legibilidad */
+    padding: 0 80px;
+    font-family: 'Charter Bold';
+}
+
+img.imagen_3 {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+img.imagen_8 {
+    display: block;
+    width: 100%;  /* Mantiene el ancho máximo posible dentro de su contenedor */
+    height: auto;  /* Asegura que la imagen mantenga sus proporciones */
+    margin: 20px auto;
+    max-width: 600px;  /* Aumenta el tamaño máximo a 800px */
+}
+
+img.imagen_9 {
+    display: block;
+    width: 100%;  /* Mantiene el ancho máximo posible dentro de su contenedor */
+    height: auto;  /* Asegura que la imagen mantenga sus proporciones */
+    margin: 20px auto;
+    max-width: 600px;  /* Aumenta el tamaño máximo a 800px */
+}
+
+img.imagen_10 {
+    display: block;
+    width: 100%;  /* Mantiene el ancho máximo posible dentro de su contenedor */
+    height: auto;  /* Asegura que la imagen mantenga sus proporciones */
+    margin: 20px auto;
+    max-width: 600px;  /* Aumenta el tamaño máximo a 800px */
+}
+
+
+h2 {
+    font-family: 'Tofino Regular';
+    font-size: 17px; /* Tamaño más grande para el h1 */
+    color: black; /* Color azul como en la imagen */
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 0 80px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+    padding: 0 80px;
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 10px;
+}
+
+table, th, td {
+    border-top: 1px solid #ddd; /* Línea superior */
+    border-bottom: 1px solid #ddd; /* Línea inferior */
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+div.lista_xiaomi {
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 10px; /* Ajuste de tamaño para mayor legibilidad */
+    line-height: 1.6; /* Ajuste para mejorar legibilidad */
+    padding: 0 95px;
+    font-family: 'Charter';
+    font-weight: normal;
+}
+
+div.lista_xiaomi strong {
+    font-weight: bold; /* Aplica negrita solo al texto dentro de <strong> */
+}
+
+a {
+    color: #2A6F02;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #FF0000;
+}
+
+@font-face {
+    font-family: 'Tofino Regular';
+    src: url('fonts/tofino_regular-webfont.woff'), url('fonts/tofino_regular-webfont.woff2');
+}
+
+@font-face {
+    font-family: 'Charter Bold';
+    src: url('fonts/charter_bold-webfont.ttf'), url('fonts/charter_bold-webfont.ttf');
+}
