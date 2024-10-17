@@ -1,0 +1,75 @@
+/* Estilo para el contenedor de las líneas */
+.line-container {
+    position: relative;
+    bottom: 26px; /* Ajusta para mover verticalmente las líneas */
+    right: 5px;  /* Ajusta para mover horizontalmente las líneas */
+    padding-left: 550px;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para cada línea */
+.line {
+    width: 25px;  /* Ajusta el ancho de cada línea */
+    height: 7px;  /* Ajusta el grosor de las líneas */
+    background-color: white;
+    margin: 0 5px; /* Espacio entre las líneas */
+    color: transparent;
+}
+
+/* Para simular el cambio de color en una línea */
+.line:nth-child(1) {
+    background-color: #444444; /* Línea gris */
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    /* Estilo para el contenedor de las líneas */
+.line-container {
+    position: relative;
+    bottom: 26px; /* Ajusta para mover verticalmente las líneas */
+    right: 5px;  /* Ajusta para mover horizontalmente las líneas */
+    padding-left: 710px;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para cada línea */
+.line {
+    width: 25px;  /* Ajusta el ancho de cada línea */
+    height: 7px;  /* Ajusta el grosor de las líneas */
+    background-color: white;
+    margin: 0 5px; /* Espacio entre las líneas */
+    color: transparent;
+}
+
+/* Para simular el cambio de color en una línea */
+.line:nth-child(1) {
+    background-color: #444444; /* Línea gris */
+}
+}
+
+@media (min-width: 992px){
+    /* Estilo para el contenedor de las líneas */
+.line-container {
+    position: relative;
+    bottom: 26px; /* Ajusta para mover verticalmente las líneas */
+    right: 5px;  /* Ajusta para mover horizontalmente las líneas */
+    padding-left: 790px;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para cada línea */
+.line {
+    width: 25px;  /* Ajusta el ancho de cada línea */
+    height: 7px;  /* Ajusta el grosor de las líneas */
+    background-color: white;
+    margin: 0 5px; /* Espacio entre las líneas */
+    color: transparent;
+}
+
+/* Para simular el cambio de color en una línea */
+.line:nth-child(1) {
+    background-color: #444444; /* Línea gris */
+}
+}
