@@ -1,0 +1,147 @@
+.logo{
+    font-family: 'Pacifico', sans-serif;
+    font-size: 42px;
+    color: #474747;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.menu{
+    margin-top: 45px;
+}
+
+.menu ul{
+    margin: 0px;
+    padding: 0px 20px;
+    display: none;
+}
+
+#menu-switch{
+    display: none;
+}
+
+.menu-mobile-label{   
+    display: block; 
+    margin: 0px 20px 5px;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid #474747;
+}
+
+.menu #menu-switch:checked + ul{
+    display: block;
+} 
+
+.menu li{
+    list-style: none;
+    margin-bottom: 5px;
+    /*margin-left: 60px;*/
+    text-align: center;
+    padding: 3px;
+    border: 1px solid #474747;
+} 
+
+.menu a, .menu-mobile-label{
+    font-family: 'Bebas', sans-serif;
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+} 
+
+.menu span{
+    color: #a5a5a5;
+}
+
+.menu span::after{
+    content: ' : ';
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo{
+        font-family: 'Pacifico', sans-serif;
+        font-size: 42px;
+        color: #474747;
+        margin-top: 35px;
+        text-align: center;
+    }
+    
+    .menu{
+        margin-top: 0px;
+    }
+    
+    .menu ul{
+        margin: 0px;
+        padding: 0px 0px;
+        display: none;
+    }
+    
+    #menu-switch{
+        display: none;
+    }
+    
+    .menu-mobile-label{   
+        margin: 0px 0px 5px;
+        padding: 3px;
+        width: 70px;
+        border: 1px solid #474747;
+    }
+    
+    .menu #menu-switch:checked + ul{
+        display: flex;
+    } 
+    
+    .menu li{
+        list-style: none;
+        margin-left: 0px;
+        margin-right: 5px;
+        text-align: left;
+        width: 150px;
+        padding: 5px;
+        border: 1px solid #474747;
+    } 
+    
+    .menu a, .menu-mobile-label{
+        font-family: 'Bebas', sans-serif;
+        font-size: 15px;
+        color: #474747;
+        text-decoration: none;
+    } 
+    
+    .menu span{
+        color: #a5a5a5;
+    }
+    
+    .menu span::after{
+        content: ' : ';
+    } 
+}
+
+@media (min-width: 992px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    .menu-mobile-label{
+        display: none;
+    }
+
+    .menu ul, .menu #menu-switch:checked + ul{
+        display: flex;
+    }
+
+    .menu li{
+        margin-left: 30px;
+        border-width: 0px;
+        text-align: left;
+    }
+
+    .menu span{
+        display: block;
+        font-size: 12px;
+    } 
+}

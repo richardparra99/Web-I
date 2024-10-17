@@ -1,0 +1,140 @@
+.features{
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.features__item__middle{
+    margin: 0px 0px;
+}
+
+.features__item__title{
+    font-family: 'Bebas', sans-serif;
+    color: #464646;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.feature__icon{
+    font-size: 42px;
+    /*float: left;*/
+    color: #9A9A9A;
+    margin-right: 10px;
+
+}
+.features__item p{
+    text-align: left;
+    font-family: 'HelveticaNeue', sans-serif;
+    color: #414141;
+    font-size: 12px;
+}
+
+.features__item a{
+    font-family: 'Bebas', sans-serif;
+    color: #474747;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+}
+
+.features article{
+    margin-bottom: 50px;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .features{
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .features article{
+        margin-bottom: 50px;
+    }
+    
+    .features__item__title{
+        float: left;
+        font-family: 'Bebas', sans-serif;
+        font-size: 20px;
+        color: #464646;
+        overflow: hidden;
+        margin-top: 0px;
+    }
+    
+    .features__item p{
+        margin-left: 40%;
+        font-family: 'HelveticaNeue', sans-serif;
+        font-size: 12px;
+    }
+    
+    .features__item__middle{
+        margin: 0px 0px;
+    }
+    
+    .feature__icon{
+        float: left;
+        color: #9A9A9A;
+        margin-right: 35px;
+        font-size: 42px;
+    }
+    .features a{
+        margin-left: 40%;
+        float: left;
+    }
+    .features__item a{
+        color: #474747;
+        font-family: 'Bebas',sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .features__item a i{
+        margin-right: 10px;
+        display: inline-block;
+    } 
+}
+
+@media (min-width: 992px){
+    .features{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    
+    .features__item__middle{
+        margin: 0px 40px;
+    }
+    
+    .features__item__title{
+        font-family: 'Bebas', sans-serif;
+        color: #464646;
+        font-size: 20px;
+        overflow: hidden;
+    }
+    
+    .feature__icon{
+        font-size: 42px;
+        float: left;
+        color: #9A9A9A;
+        margin-right: 30px;
+    
+    }
+    .features__item p{
+        font-family: 'HelveticaNeue', sans-serif;
+        color: #414141;
+        font-size: 12px;
+    }
+    
+    .features__item a{
+        font-family: 'Bebas', sans-serif;
+        color: #474747;
+        font-size: 12px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+

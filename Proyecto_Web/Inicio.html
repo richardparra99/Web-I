@@ -6,28 +6,33 @@
         <link rel="stylesheet" href="Estilos/inicio_cuenta.css">
     </head>
     <body>
-        <header>
-            <img class="imagen_1" src="" alt="logo">
-            <h1 class="titulo_1">Cuenta - Fast Movie</h1>
+        <header class="navbar">
+            <img class="navbar__logo" src="../images/logo - FM.png" alt="logo">
+            <h1 class="navbar__title">Cuenta - Fast Movie</h1>
         </header>
-        <h2 class="titulo_2">¡Iniciar Sesion!</h2>
-        <form class="caja" action="">
-            <div>
-                <label for="nombre_id">Nombre:</label>
-                <input type="text" class="nombre_id" name="Nombre">
-            </div><br>
-            <div>
-                <label for="contrasena">Contraseña:</label>
-                <input type="password" class="contrasena" name="Contraseña">
-            </div><br>
-            <div>
-                <label for="correo">Correo Electronico:</label>
-                <input type="email" class="correo" name="Correo Electronico">
-            </div><br>
-            <div>
-                <input type="reset" value="Borrar">
-                <a href="TiendaMenu.html">Aceptar</a>
+        <main class="main-container">
+            <div class="form-container">
+                <h2 class="titulo_2">¡Iniciar Sesion!</h2>
+                <form class="caja" action="">
+                    <div>
+                        <label for="nombre_id">Nombre:</label>
+                        <input type="text" class="nombre_id" name="Nombre">
+                    </div><br>
+                    <div>
+                        <label for="contrasena">Contraseña:</label>
+                        <input type="password" class="contrasena" name="Contraseña">
+                    </div><br>
+                    <div>
+                        <label for="correo">Correo Electronico:</label>
+                        <input type="email" class="correo" name="Correo Electronico">
+                    </div><br>
+                    <div>
+                        <input type="reset" value="Borrar">
+                        <a href="TiendaMenu.html">Aceptar</a>
+                    </div>
+                </form>
             </div>
-        </form>
+        </main>
+
     </body>
 </html>
