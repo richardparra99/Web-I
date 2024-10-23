@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Proyecto - Tienda</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+        <link rel="stylesheet" href="Estilos/Pagina_R.css">
     </head>
     <body>
-        <h1>¡Registrarse - Fast Movie!</h1>
-        <form action="">
+        <main class="main-container">
+            <header class="navbar">
+                <img class="navbar__logo" src="../images/logo - FM.png" alt="logo de la pagina fast movie">
+                <h1 class="navbar__title">¡Registrarse - Fast Movie!</h1>
+            </header>
             <div>
-                <label for="nombre_id">Nombre:</label>
-                <input type="user" id="nombre_id" name="Nombre">
-            </div><br>
-            <div>
-                <label for="contrasena">Contraseña:</label>
-                <input type="password" id="contrasena" name="Contraseña">
-            </div><br>
-            <div>
-                <label for="correo">Correo Electronico:</label>
-                <input type="email" id="correo" name="Correo Electronico">
-            </div><br>
-            <div>
-                <input type="reset" value="Borrar">
-                <input type="submit" value="Iniciar Sesion">
-                <input type="submit" value="Registrarse">
+                <img class="navbar__logo__oficial" src="../images/fast - movie.png" alt="logo oficial de fast movie">
             </div>
-        </form>
+            <form class="form-encabezado" action="">
+                <div>
+                    <label class="form-encabezado-nombre" for="nombre_id">Nombre:</label>
+                    <input class="input-user" type="user" id="nombre_id" name="Nombre">
+                </div><br>
+                <div>
+                    <label class="form-encabezado-contrasena" for="contrasena">Contraseña:</label>
+                    <input class="input-contra" type="password" id="contrasena" name="Contraseña">
+                </div><br>
+                <div>
+                    <label class="form-encabezado-correo" for="correo">Correo Electronico:</label>
+                    <input class="input-correo" type="email" id="correo" name="Correo Electronico">
+                </div><br>
+                <div class="navbar__buttons">
+                    <button type="reset">Borrar</button>
+                    <button class="navbar__buttons__a"><a href="../Proyecto_Web/Pagina_P.html">Aceptar</a></button>
+                </div>
+            </form>
+        </main>
     </body>
 </html>

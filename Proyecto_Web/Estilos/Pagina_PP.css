@@ -1,0 +1,81 @@
+html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 100%;
+    margin: 15% auto;
+}
+
+.navbar {
+    background-color: #F8B571;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    margin-bottom: 10px;
+    top: 0;
+    display: flex; /* Hacemos que el contenedor navbar sea flex */
+    justify-content: space-between; /* Espaciamos los elementos */
+    align-items: center; /* Alineamos verticalmente los elementos */
+    border-bottom: 8px solid black;
+}
+
+.navbar__logo {
+    width: 100px;
+    float: left;
+}
+
+.navbar__title {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+button {
+    justify-content: center;
+    border: none;
+    background-color: black;
+    color:#F8B571;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.navbar__buttons__p {
+    width: 100px;
+    height: 39px;
+}
+
+div .navbar__buttons__c {
+    width: 100px;
+    background-color: #F8B571;
+    border: 2px solid black;
+}
+
+.navbar__buttons a{
+    text-decoration: none;
+    color: #F8B571;
+}
+
+div .navbar__buttons__c a {
+    color: black;
+}
+
+.navbar__buttons {
+    margin-right: 20px;
+}
+
+

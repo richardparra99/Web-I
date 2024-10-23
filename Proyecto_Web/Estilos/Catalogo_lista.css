@@ -1,0 +1,110 @@
+html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-container {
+    width: 100%;
+}
+
+.navbar {
+    background-color: #F8B571;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    margin-bottom: 10px;
+    top: 0;
+    display: flex; /* Hacemos que el contenedor navbar sea flex */
+    justify-content: space-between; /* Espaciamos los elementos */
+    align-items: center; /* Alineamos verticalmente los elementos */
+    border-bottom: 8px solid black;
+}
+
+.navbar__logo {
+    width: 100px;
+    float: left;
+}
+
+.navbar__title {
+    padding-right: 450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #F8B571;
+    font-size: 24px;
+    margin-top: 200px;
+}
+
+.listas_peliculas {
+    display: flex;
+    justify-content: center; /* Centra los artículos horizontalmente */
+    gap: 20px; /* Espacio entre las películas */
+    padding: 20px;
+}
+
+.pelicula img {
+    width: 60%; /* Ajusta la imagen dentro del artículo */
+    height: auto;
+    border-radius: 10px; /* Bordes suaves para la imagen */
+}
+
+.pelicula {
+    background-color: #facd9f; /* Color de fondo de los artículos */
+    border: 2px solid black; /* Borde negro */
+    border-radius: 20px; /* Hacerlo circular */
+    width: 200px; /* Ajusta según el tamaño deseado */
+    height: 250px; /* Ajusta según el tamaño deseado */
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pelicula h3 {
+    margin: 10px 0 5px 0;
+    font-size: 24px;
+}
+
+.pelicula p {
+    font-size: 22px;
+    margin: 0;
+}
+
+
+.footer {
+    background-color: #333; /* Cambia esto según tu diseño */
+    color:#F8B571;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    padding: 50px 0;
+}
+
+.footer__socials {
+    list-style: none;
+    padding: 0;
+}
+
+.footer__socials li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer__socials a {
+    color:#F8B571; /* Cambia esto según tu diseño */
+    text-decoration: none;
+}
