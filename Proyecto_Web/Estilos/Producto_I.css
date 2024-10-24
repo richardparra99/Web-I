@@ -40,90 +40,121 @@ body {
     margin: 0;
 }
 
-div .navbar__logo__oficial {
-    margin-left: 480px;
-    margin-top: 80px;
-}
-.navbar__logo__oficial {
-    width: 350px;
-    margin-top: -80px;
-    margin-bottom: auto;
-}
 
-.form-encabezado {
+
+div .detalle_pelicula_titulo {
     text-align: center;
-    margin-top: -80px;
-    margin-bottom: auto;
+    color: #F8B571;
+    font-size: 24px;
+    margin-top: 200px;
 }
 
-.form-encabezado-nombre {
-    background-color: #F8B571;
-    border-radius: 18px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+.detalle_pelicula {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
-.form-encabezado-contrasena {
-    background-color: #F8B571;
-    border-radius: 18px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.pelicula_contenido {
+    border-radius: 100px;
+    padding: 50px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    border: 6px solid #F8B571;
+    margin-top: 120px;
 }
 
-.form-encabezado-correo {
-    background-color: #F8B571;
-    border-radius: 18px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.texto_pelicula {
+    max-width: 500px;
+    margin-left: 20px;
 }
 
-input {
-    width: 20%;
-    margin-left: 50px;
-    border: 2px solid #F8B571;
-    border-radius: 18px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.input-contra {
-    margin-right: 15px;
-}
-
-.input-correo {
+.imagen_pelicula {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    float: left;
     margin-right: 60px;
 }
 
+.pelicula_contenido h3 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 50px;
+    margin: 0px;
+}
 
-button {
-    justify-content: center;
-    border: none;
-    background-color: black;
-    color:#F8B571;
-    border-radius: 10px;
+.pelicula_contenido h4 {
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.pelicula_contenido p {
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+
+article div .parrafo_precio {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+
+.label-cantidad {
+    background-color: #F8B571;
+    border-radius: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 30px;
-    padding-left: 30px;
+    margin-left: 0px;
 }
 
-.navbar__buttons__a a{
+input {
+    width: 24%;
+    border: 2px solid #F8B571;
+    border-radius: 18px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+button {
+    justify-content: right;
+    border: none;
+    background-color: black;
+    border-radius: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+
+.navbar__buttons__ca a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.navbar__buttons__ac a{
     text-decoration: none;
     color: black;
+    font-weight: 900;
 }
 
-.navbar__buttons__a {
+.navbar__buttons__ac {
     background-color: #F8B571;
 }
 
+/*---------------------------------------------*/
 .footer {
     background-color: #333; /* Cambia esto según tu diseño */
     color:#F8B571;
