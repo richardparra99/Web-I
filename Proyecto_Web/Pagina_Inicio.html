@@ -3,7 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>Fast Movie</title>
-        <link rel="stylesheet" href="Estilos/Pagina_I.css">
+        <link rel="stylesheet" href="Estilos/Estilos_Inicio/cuerpo_encabezado.css">
+        <link rel="stylesheet" href="Estilos/Estilos_Inicio/header.css">
+        <link rel="stylesheet" href="Estilos/Estilos_Inicio/section.css">
+        <link rel="stylesheet" href="Estilos/Estilos_Inicio/footer.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     </head>
     <body>
@@ -12,9 +15,24 @@
                 <img class="navbar__logo" src="../images/logo - FM.png" alt="logo">
                 <h1 class="navbar__title">¡Bienvenido - Fast Movie!</h1>
                 <div class="navbar__buttons">
-                    <button class="navbar__buttons__i"><a href="">Iniciar Sesion</a></button>
-                    <button class="navbar__buttons__r"><a href="../Proyecto_Web/Registro.html">Registrarse</a></button>
-                    <button class="navbar__buttons__c"><a href="">Carrito</a></button>
+                    <nav class="menu">
+                        <label class="menu-mobile-label" for="menu-switch">
+                            <i class="fa-solid fa-bars"></i>
+                            Menu
+                        </label>
+                        <input id="menu-switch" type="checkbox">
+                        <ul>
+                            <li>
+                                <button class="navbar__buttons__i"><a href="">Iniciar Sesion</a></button>
+                            </li>
+                            <li>
+                                <button class="navbar__buttons__r"><a href="../Proyecto_Web/Registro.html">Registrarse</a></button>
+                            </li>
+                            <li>
+                                <button class="navbar__buttons__c"><a href="">Carrito</a></button>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </header>
 
