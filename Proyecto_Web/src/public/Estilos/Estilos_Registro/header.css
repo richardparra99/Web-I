@@ -1,0 +1,28 @@
+.main-container {
+    width: 100%;
+}
+
+.navbar {
+    background-color: #F8B571;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    margin-bottom: 10px;
+    top: 0;
+    display: flex; /* Hacemos que el contenedor navbar sea flex */
+    justify-content: space-between; /* Espaciamos los elementos */
+    align-items: center; /* Alineamos verticalmente los elementos */
+    border-bottom: 8px solid black;
+}
+
+.navbar__logo {
+    width: 100px;
+    float: left;
+}
+
+.navbar__title {
+    padding-right: 450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}

@@ -1,0 +1,83 @@
+div .navbar__logo__oficial {
+    margin-left: 480px;
+    margin-top: 80px;
+}
+.navbar__logo__oficial {
+    width: 350px;
+    margin-top: -80px;
+    margin-bottom: auto;
+}
+
+.form-encabezado {
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: auto;
+}
+
+.form-encabezado-nombre {
+    background-color: #F8B571;
+    border-radius: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-encabezado-contrasena {
+    background-color: #F8B571;
+    border-radius: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-encabezado-correo {
+    background-color: #F8B571;
+    border-radius: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input {
+    width: 20%;
+    margin-left: 50px;
+    border: 2px solid #F8B571;
+    border-radius: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-contra {
+    margin-right: 15px;
+}
+
+.input-correo {
+    margin-right: 60px;
+}
+
+
+button {
+    justify-content: center;
+    border: none;
+    background-color: black;
+    color:#F8B571;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.navbar__buttons__a a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar__buttons__a {
+    background-color: #F8B571;
+}

@@ -1,0 +1,129 @@
+.main-container {
+    width: 100%;
+}
+
+.navbar {
+    background-color: #F8B571;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    margin-bottom: 10px;
+    top: 0;
+    display: block; /* Hacemos que el contenedor navbar sea flex */
+    justify-content: space-between; /* Espaciamos los elementos */
+    align-items: center; /* Alineamos verticalmente los elementos */
+    border-bottom: 8px solid black;
+}
+
+.navbar__logo {
+    width: 100px;
+    float: left;
+}
+
+.navbar__title {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+div .navbar__buttons__c {
+    width: 30%;
+    background-color: #F8B571;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+div .navbar__buttons__c a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-container {
+        width: 100%;
+    }
+    
+    .navbar {
+        background-color: #F8B571;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        margin-bottom: 10px;
+        top: 0;
+        display: block; /* Hacemos que el contenedor navbar sea flex */
+        justify-content: space-between; /* Espaciamos los elementos */
+        align-items: center; /* Alineamos verticalmente los elementos */
+        border-bottom: 8px solid black;
+    }
+    
+    .navbar__logo {
+        width: 100px;
+        float: left;
+    }
+    
+    .navbar__title {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    
+    
+    div .navbar__buttons__c {
+        background-color: #F8B571;
+        border: 2px solid black;
+        margin-bottom: 10px;
+        margin-right: 250PX;
+        margin-left: 10px;
+    }
+    
+    div .navbar__buttons__c a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+@media (min-width: 991px) {
+    .main-container {
+        width: 100%;
+    }
+    
+    .navbar {
+        background-color: #F8B571;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        margin-bottom: 10px;
+        top: 0;
+        display: flex; /* Hacemos que el contenedor navbar sea flex */
+        justify-content: space-between; /* Espaciamos los elementos */
+        align-items: center; /* Alineamos verticalmente los elementos */
+        border-bottom: 8px solid black;
+    }
+    
+    .navbar__logo {
+        width: 100px;
+        float: left;
+    }
+    
+    .navbar__title {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+    
+    div .navbar__buttons__c {
+        width: 100px;
+        background-color: #F8B571;
+        border: 2px solid black;
+        margin-right: 50px;
+    }
+    
+    div .navbar__buttons__c a {
+        text-decoration: none;
+        color: black;
+    }
+}
