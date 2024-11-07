@@ -1,0 +1,300 @@
+.listas {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 100px;
+    padding-bottom: 70px;
+}
+
+.listas div div {
+    margin-top: 50px;
+}
+
+.listas div {
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+.listas_articulo_ciculo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: #4FB9F5;
+}
+
+.listas_articulo_ciculo_2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: #70C126;
+}
+
+.listas_articulo_ciculo_3 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: #FF5649;
+}
+
+.listas_articulo_ciculo_4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: #E48F24;
+}
+
+.articulo_list {
+    position: absolute;
+}
+
+.imagen__beer {
+    margin-top: 30px;
+}
+
+.listas_articulo_parrafo_3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FC8C78;
+}
+
+.listas_articulo_parrafo_4 {
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.listas_articulo_parrafo_5{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.listas_articulo_ticket {
+    width: 40%;
+}
+
+.listas_articulo_parrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.listas_articulo_parrafo_2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .listas {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+        margin-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    .listas div div {
+        margin-top: 0px;
+    }
+    
+    .listas div {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .listas_articulo_ciculo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        background-color: #4FB9F5;
+    }
+    
+    .listas_articulo_ciculo_2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        background-color: #70C126;
+    }
+    
+    .listas_articulo_ciculo_3 {
+        display: flex;
+        position: relative;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        background-color: #FF5649;
+    }
+    
+    .listas_articulo_ciculo_4 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        background-color: #E48F24;
+    }
+    
+    .articulo_list {
+        position: absolute;
+    }
+    
+    .imagen__beer {
+        margin-top: 30px;
+    }
+    
+    .listas_articulo_parrafo_3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #FC8C78;
+    }
+    
+    .listas_articulo_parrafo_4 {
+        width: 90%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .listas_articulo_parrafo_5{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .listas_articulo_ticket {
+        width: 40%;
+    }
+    
+    .listas_articulo_parrafo {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    
+    .listas_articulo_parrafo_2 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media (min-width: 992px) {
+    .listas {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+        margin-top: 100px;
+        padding-bottom: 70px;
+    }
+    
+    .listas div div {
+        margin-top: 0px;
+    }
+
+    .listas div {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .listas_articulo_ciculo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        background-color: #4FB9F5;
+    }
+    
+    .listas_articulo_ciculo_2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        background-color: #70C126;
+    }
+    
+    .listas_articulo_ciculo_3 {
+        display: flex;
+        position: relative;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        background-color: #FF5649;
+    }
+    
+    .listas_articulo_ciculo_4 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        background-color: #E48F24;
+    }
+    
+    .articulo_list {
+        position: absolute;
+    }
+    
+    .imagen__beer {
+        margin-top: 30px;
+    }
+    
+    .listas_articulo_parrafo_3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #FC8C78;
+    }
+    
+    .listas_articulo_parrafo_4 {
+        width: 90%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .listas_articulo_parrafo_5{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .listas_articulo_ticket {
+        width: 40%;
+    }
+    
+    .listas_articulo_parrafo {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    
+    .listas_articulo_parrafo_2 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

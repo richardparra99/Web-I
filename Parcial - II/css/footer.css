@@ -1,0 +1,219 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: #262626;
+}
+
+.footer__list {
+    display: flex;
+    width: 50%;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.footer_listado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150%;
+    height: auto;
+    color: #686A69;
+}
+
+.footer_parrafo_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    text-align: left;
+    color: #686A69;
+}
+
+
+.footer_circulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #686A69;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.footer-enlaces {
+    display: flex;
+}
+
+.footer_logo {
+    width: 30px;
+}
+
+.footer_fb {
+    width: 15px;
+}
+
+.footer__copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #686A69;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        background-color: #262626;
+    }
+
+    .footer__list {
+        display: flex;
+        flex-direction: column;
+        width: 5%;
+        margin-right: 90px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .footer_listado {
+        display: flex;
+        margin-top: 0px;
+    }
+    
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 250%;
+        height: auto;
+        color: #686A69;
+    }
+    
+    .footer_parrafo_1 {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        text-align: left;
+        color: #686A69;
+    }
+    
+    
+    .footer_circulo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #686A69;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 0px;
+    }
+    
+    .footer-enlaces {
+        display: flex;
+    }
+    
+    .footer_logo {
+        width: 30px;
+    }
+    
+    .footer_fb {
+        width: 15px;
+    }
+    
+    .footer__copyright {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #686A69;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        background-color: #262626;
+    }
+    
+    .footer__list {
+        display: block;
+        width: 5%;
+        margin-right: 90px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .footer_listado {
+        display: block;
+        flex-direction: row;
+        align-items:normal;
+        margin-top: 0px;
+    }
+    
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 150%;
+        height: auto;
+        color: #686A69;
+    }
+    
+    .footer_parrafo_1 {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        text-align: left;
+        color: #686A69;
+    }
+    
+    
+    .footer_circulo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #686A69;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 0px;
+    }
+    
+    .footer-enlaces {
+        display: flex;
+    }
+    
+    .footer_logo {
+        width: 30px;
+    }
+    
+    .footer_fb {
+        width: 15px;
+    }
+    
+    .footer__copyright {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #686A69;
+    }
+}
