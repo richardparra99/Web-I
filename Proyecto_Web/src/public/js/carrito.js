@@ -1,4 +1,3 @@
-// Referencias a elementos del DOM
 const mensajeCarrito = document.getElementById('mensajeCarrito');
 const btnPagar = document.getElementById('btn-pagar');
 const btnVerCompras = document.getElementById('btnVerCompras');
@@ -12,7 +11,7 @@ const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 // Función para renderizar el carrito en el DOM
 const renderCarrito = () => {
     if (carrito.length === 0) {
-        mensajeCarrito.innerHTML = `<p class="carrito-vacio">EL CARRITO ESTÁ VACÍO</p>`;
+        mensajeCarrito.innerHTML = '<p class="carrito-vacio">EL CARRITO ESTÁ VACÍO</p>';
         btnPagar.style.display = 'none'; // Ocultar el botón de pagar si el carrito está vacío
     } else {
         mensajeCarrito.innerHTML = carrito
@@ -34,7 +33,7 @@ const renderCarrito = () => {
     }
 };
 
-// Función para eliminar un producto del carrito
+
 const eliminarProducto = (index) => {
     carrito.splice(index, 1); // Elimina el producto del array
     localStorage.setItem('carrito', JSON.stringify(carrito)); // Actualiza el almacenamiento local
@@ -43,7 +42,12 @@ const eliminarProducto = (index) => {
 
 // Función para manejar la compra
 const realizarCompra = async () => {
-    const idUsuario = localStorage.getItem('id_usuario') || 1; // Obtiene el id del usuario o asigna uno predeterminado
+    const idUsuario = localStorage.getItem('id_usuario'); // Obtiene el id del usuario
+
+    if (!idUsuario) {
+        alert('Debes iniciar sesión antes de realizar una compra.');
+        return;
+    }
 
     try {
         const response = await fetch('/api/realizar-compra', {
@@ -81,16 +85,21 @@ const realizarCompra = async () => {
     }
 };
 
-// Función para mostrar las compras realizadas en el modal (solo las del usuario actual)
+// Función para mostrar las compras realizadas en el modal
 const verMisCompras = () => {
     const idUsuarioActual = localStorage.getItem('id_usuario'); // Obtiene el ID del usuario actual
+    if (!idUsuarioActual) {
+        alert('No has iniciado sesión.');
+        return;
+    }
+
     const compras = JSON.parse(localStorage.getItem('compras')) || [];
 
     // Filtrar compras por el ID del usuario actual
     const comprasUsuario = compras.filter((compra) => compra.idUsuario === idUsuarioActual);
 
     if (comprasUsuario.length === 0) {
-        listaCompras.innerHTML = `<p>No has realizado ninguna compra aún.</p>`;
+        listaCompras.innerHTML = '<p>No has realizado ninguna compra aún.</p>';
     } else {
         listaCompras.innerHTML = comprasUsuario
             .map(
@@ -108,7 +117,7 @@ const verMisCompras = () => {
     modalCompras.style.display = 'block'; // Mostrar el modal
 };
 
-// Modificación en la función guardarCompra para incluir el ID del usuario
+// Guardar la compra con asociación de usuario
 const guardarCompra = (compra) => {
     try {
         const idUsuarioActual = localStorage.getItem('id_usuario'); // ID del usuario actual
@@ -122,7 +131,6 @@ const guardarCompra = (compra) => {
         console.error('Error al guardar la compra:', error);
     }
 };
-
 
 // Función para cerrar el modal
 const cerrarModalCompras = () => {

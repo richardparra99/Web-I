@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', async (event) => {
         event.preventDefault(); // Evitar el comportamiento por defecto del formulario
 
-        // Obtén los valores de los campos y elimina los espacios al principio y final
         const nombre = document.getElementById('nombre_id').value.trim();
         const email = document.getElementById('correo').value.trim();
         const contrasena = document.getElementById('contrasena').value.trim();
@@ -21,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let validacionCorrecta = true;
 
-        // Validación de campos
         if (!nombre) {
             validacionCorrecta = false;
             const errorNombre = document.createElement('div');
@@ -69,8 +67,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const data = await response.json();
 
-            // Si la respuesta es exitosa (200 OK)
             if (response.status === 200) {
+                // Guardar la información del usuario en localStorage
+                localStorage.setItem('id_usuario', data.usuario.id); // Guarda el ID del usuario
+                localStorage.setItem('nombre_usuario', data.usuario.nombre); // Guarda el nombre del usuario
+
                 mensaje.textContent = '¡Inicio de sesión exitoso! Redirigiendo...';
                 mensaje.style.color = 'green'; // Estilo para el mensaje de éxito
                 mensaje.style.display = 'block'; // Hacer visible el mensaje
