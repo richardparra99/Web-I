@@ -2,11 +2,15 @@ const db = require("../../public/models");
 const Producto = db.Producto;
 
 // Crear un nuevo producto
+// Crear un nuevo producto
 exports.create = async (req, res) => {
     try {
+        console.log("Datos recibidos:", req.body); // Verifica los datos recibidos
+
         const { id_producto, nombre_producto, precio, descripcion } = req.body;
-        if (!nombre_producto || !precio) {
-            return res.status(400).send({ message: "Nombre y precio son obligatorios." });
+
+        if (!id_producto || !nombre_producto || !precio || !descripcion) {
+            return res.status(400).send({ message: "Todos los campos son requeridos." });
         }
 
         const producto = await Producto.create({
@@ -18,9 +22,12 @@ exports.create = async (req, res) => {
 
         res.status(201).send(producto);
     } catch (error) {
+        console.error("Error al crear producto:", error); // Registro de errores detallado
         res.status(500).send({ message: error.message });
     }
 };
+
+
 
 // Obtener todos los productos
 exports.findAll = async (req, res) => {
