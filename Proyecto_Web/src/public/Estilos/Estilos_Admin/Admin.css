@@ -1,0 +1,145 @@
+/*----------------------------------------*/
+html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Estilos para el encabezado (navbar) */
+.navbar {
+    background-color: #F8B571;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    margin-bottom: 10px;
+    top: 0;
+    display: flex; /* Hacemos que el contenedor navbar sea flex */
+    justify-content: space-between; /* Espaciamos los elementos */
+    align-items: center; /* Alineamos verticalmente los elementos */
+    border-bottom: 8px solid black;
+}
+
+/* Estilos para la lista de navegación */
+.navbar nav ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Flexbox para organizar horizontalmente */
+}
+
+.navbar nav ul li {
+    margin: 0 15px; /* Espaciado entre los elementos de la lista */
+}
+
+.navbar nav ul li a {
+    text-decoration: none; /* Sin subrayado */
+    color: black; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+}
+
+h1 {
+    text-align: right;
+}
+/* Estilos para el contenido principal */
+main {
+    margin-top: 80px; /* Margen superior para evitar la superposición con la navbar */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos para las secciones */
+section {
+    margin-bottom: 40px; /* Espaciado entre secciones */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #F8B571; /* Borde */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #facd9f; /* Color de fondo de las secciones */
+}
+
+/* Estilos para los encabezados de las secciones */
+h2 {
+    color: #F8B571; /* Color del texto */
+    text-align: center; /* Centrado */
+}
+
+/* Estilos para los botones */
+button {
+    background-color: black; /* Fondo negro */
+    color: #F8B571; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+button:hover {
+    background-color: #F8B571; /* Cambia el color de fondo al pasar el mouse */
+    color: black; /* Cambia el color del texto al pasar el mouse */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center; /* Centrado */
+    padding: 20px; /* Espaciado interno */
+    background-color: #333; /* Color de fondo */
+    color: #F8B571; /* Color del texto */
+    position: relative; /* Posición relativa */
+    bottom: 0; /* Alineado al fondo */
+    width: 100%; /* Ancho completo */
+}
+
+.btnCerrarSesion {
+    background-color: #ff4d4d;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btnCerrarSesion:hover {
+    background-color: #ff1a1a;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#listaProductos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.eliminarProducto {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.eliminarProducto:hover {
+    background-color: #e60000;
+}

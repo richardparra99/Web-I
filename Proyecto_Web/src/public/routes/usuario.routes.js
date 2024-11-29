@@ -3,17 +3,28 @@ module.exports = app => {
     const usuarioController = require("../controllers/usuario.controller.js");
 
     // Crear un nuevo usuario
-    // router.post('/usuarios', usuarioController.createUser);
+    router.post('/', usuarioController.createUser);
 
-    // En usuario.routes.js
-    router.post('/usuarios', (req, res, next) => {
+    // Ruta para inicio de sesión
+    router.post('/login', usuarioController.loginUser);
+
+    // Middleware para depuración (opcional, útil para desarrollo)
+    router.use((req, res, next) => {
+        console.log(`Ruta solicitada: ${req.method} ${req.originalUrl}`);
+        console.log('Body:', req.body);
+        next();
+    });
+
+    // Ruta duplicada (se deja como ejemplo pero podría no ser necesaria)
+    router.post('/', (req, res, next) => {
         console.log('Recibida petición POST a /usuarios');
         console.log('Body:', req.body);
         next();
     }, usuarioController.createUser);
 
     // Obtener todos los usuarios
-    router.get('/usuarios', usuarioController.getAllUsers);
+    router.get('/', usuarioController.getAllUsers);
 
-    app.use('/api', router);
+    // Registrar el router bajo la ruta base /api/usuarios
+    app.use('/api/usuarios', router);
 };

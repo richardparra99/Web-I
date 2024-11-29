@@ -9,7 +9,7 @@
     position: fixed;
     margin-bottom: 10px;
     top: 0;
-    display: block; /* Hacemos que el contenedor navbar sea flex */
+    display: flex; /* Hacemos que el contenedor navbar sea flex */
     justify-content: space-between; /* Espaciamos los elementos */
     align-items: center; /* Alineamos verticalmente los elementos */
     border-bottom: 8px solid black;
@@ -21,27 +21,17 @@
 }
 
 .navbar__title {
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+header h1 {
     font-size: 20px;
-    padding-top: 50px;
-    padding-bottom: 10px;
 }
 
-
-div .navbar__buttons__c {
-    width: 50%;
-    background-color: #F8B571;
-    border: 2px solid black;
-    margin-bottom: 10px;
-    margin-right: 80px;
-    float: right;
-}
-
-div .navbar__buttons__c a {
-    text-decoration: none;
-    color: black;
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px){
     .main-container {
         width: 100%;
     }
@@ -53,7 +43,7 @@ div .navbar__buttons__c a {
         position: fixed;
         margin-bottom: 10px;
         top: 0;
-        display: block; /* Hacemos que el contenedor navbar sea flex */
+        display: flex; /* Hacemos que el contenedor navbar sea flex */
         justify-content: space-between; /* Espaciamos los elementos */
         align-items: center; /* Alineamos verticalmente los elementos */
         border-bottom: 8px solid black;
@@ -65,31 +55,15 @@ div .navbar__buttons__c a {
     }
     
     .navbar__title {
-        font-size: 40px;
-        padding-top: 50px;
-        padding-bottom: 10px;
-        margin-left: 200px;
-    }
-    
-    
-    div .navbar__buttons__c {
-        width: 50%;
-        background-color: #F8B571;
-        border: 2px solid black;
-        margin-bottom: 10px;
-        margin-right: 180px;
-        float: right;
-    }
-    
-    div .navbar__buttons__c a {
-        text-decoration: none;
-        color: black;
+        padding-right: 200px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0;
     }
 
-    #btnCarrito {
-        width: 200px;
+    header h1 {
+        font-size: 30px;
     }
-    
 }
 
 @media (min-width: 992px) {
@@ -116,22 +90,13 @@ div .navbar__buttons__c a {
     }
     
     .navbar__title {
-        font-size: 40px;
-        text-align: center;
+        padding-right: 380px;
         padding-top: 20px;
         padding-bottom: 20px;
         margin: 0;
     }
-    
-    div .navbar__buttons__c {
-        width: 100px;
-        background-color: #F8B571;
-        border: 2px solid black;
-        margin-right: 50px;
-    }
-    
-    div .navbar__buttons__c a {
-        text-decoration: none;
-        color: black;
+
+    header h1 {
+        font-size: 40px;
     }
 }

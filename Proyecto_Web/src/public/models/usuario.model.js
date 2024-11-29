@@ -2,27 +2,28 @@ module.exports = (sequelize, Sequelize) => {
     const Usuario = sequelize.define("usuario", {
         id_usuario: {
             type: Sequelize.INTEGER,
-            primaryKey: true
+            primaryKey: true,
+            autoIncrement: true, // Permitir autoincremento
         },
         nombre: {
             type: Sequelize.STRING(30),
-            allowNull: false
+            allowNull: false,
         },
-        telefono: {
+        contrasena: {
             type: Sequelize.STRING(10),
-            allowNull: false
+            allowNull: false,
         },
-        direccion: {
+        email: {
             type: Sequelize.STRING(30),
-            allowNull: false
+            allowNull: false,
         },
         administrador: {
             type: Sequelize.BOOLEAN,
-            defaultValue: false
-        }
+            defaultValue: false,
+        },
     }, {
         timestamps: false,
-        tableName: 'usuario' // Especificar el nombre exacto de la tabla aquí
+        tableName: 'usuario',
     });
 
     return Usuario;
