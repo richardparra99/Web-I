@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -18,7 +18,9 @@
                 </a>
                 <h1 class="navbar__title">¡Producto - Fast Movie!</h1>
                 <div>
-                    <button class="navbar__buttons__c"><a href="">Carrito</a></button>
+                    <button class="navbar__buttons__c" id="btnCarrito">
+                        <a href="carrito.html">Carrito <span id="contadorCarrito">(0)</span></a>
+                    </button>
                 </div>
             </header>
 
@@ -26,8 +28,8 @@
             <section class="detalle_pelicula">
                 <article class="pelicula_contenido">
                     <div class="texto_pelicula">
-                        <img class="imagen_pelicula" src="../images/scarface.jpg" alt="Scarface poster">
                         <h3>Scarface</h3>
+                        <img class="imagen_pelicula" src="../images/scarface.jpg" alt="Scarface poster">
                         <h4>Acción</h4>
                         <p>
                             "Scarface" (1983), dirigida por Brian De Palma y escrita por Oliver Stone, es un clásico del cine de gánsteres. La película narra la historia de Tony Montana (interpretado por Al Pacino), un inmigrante cubano que llega a Miami en busca del "sueño americano". A lo largo de la película, Tony se convierte en un poderoso y despiadado narcotraficante.
@@ -39,7 +41,7 @@
                         <label class="label-cantidad" for="cantidad_id">Cantidad:</label>
                         <input type="text" name="Cantidad" id="cantidad_id">
                         <button class="navbar__buttons__ca"><a href="">Comprar Ahora!</a></button>
-                        <button class="navbar__buttons__ac"><a href="">Añadir al Carrito</a></button>
+                        <button id="btnAgregarCarrito" class="navbar__buttons__ac"><a href="">Añadir al Carrito</a></button>
                     </div>
                 </article>
             </section>
@@ -56,5 +58,6 @@
                 </div>
             </footer>
         </main>
+        <script src="js/producto.js"></script>
     </body>
 </html>

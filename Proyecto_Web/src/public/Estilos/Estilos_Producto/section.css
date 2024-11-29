@@ -32,13 +32,13 @@ div .detalle_pelicula_titulo {
     height: auto;
     border-radius: 10px;
     float: left;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .pelicula_contenido h3 {
     text-align: center;
     margin-top: 0px;
-    font-size: 50px;
+    font-size: 30px;
     margin: 0px;
 }
 
@@ -69,14 +69,14 @@ article div .parrafo_precio {
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 
 input {
-    width: 24%;
+    width: 50%;
     border: 2px solid #F8B571;
     border-radius: 18px;
-    padding-left: 20px;
+    padding-left: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 0px;
@@ -92,7 +92,7 @@ button {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 
 .navbar__buttons__ca a{
@@ -110,7 +110,13 @@ button {
 .navbar__buttons__ac {
     background-color: #F8B571;
 }
-@media (min-width: 768px) and (max-width: 991) {
+
+#cantidad_id {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
     div .detalle_pelicula_titulo {
         text-align: center;
         color: #F8B571;
@@ -128,11 +134,9 @@ button {
         border-radius: 100px;
         padding: 50px;
         display: block;
-        align-items: center;
-        justify-content: space-between;
         max-width: 1000px;
         border: 6px solid #F8B571;
-        margin-top: 120px;
+        margin-top: 300px;
     }
     
     .texto_pelicula {
@@ -339,6 +343,11 @@ button {
     
     .navbar__buttons__ac {
         background-color: #F8B571;
+    }
+
+    #cantidad_id {
+        margin-top: 0px;
+        margin-left: 0px;
     }
     
 }

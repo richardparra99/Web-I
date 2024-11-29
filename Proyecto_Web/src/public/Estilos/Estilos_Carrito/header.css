@@ -1,0 +1,93 @@
+.main-container {
+    width: 100%;
+}
+
+.navbar {
+    background-color: #F8B571;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    margin-bottom: 10px;
+    top: 0;
+    display: flex; /* Hacemos que el contenedor navbar sea flex */
+    justify-content: space-between; /* Espaciamos los elementos */
+    align-items: center; /* Alineamos verticalmente los elementos */
+    border-bottom: 8px solid black;
+}
+
+.navbar__logo {
+    width: 100px;
+    float: left;
+}
+
+.navbar__title {
+    padding-right: 450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+#carrito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Ajusta según el tamaño deseado */
+    text-align: center;
+    margin: 0 auto;
+    color: #333; /* Color del texto */
+    font-size: 1.5rem; /* Tamaño del texto */
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+#mensajeCarrito {
+    padding: 20px;
+    border: 4px solid#F8B571; /* Borde decorativo */
+    border-radius: 30px;
+    background-color: white; /* Fondo del mensaje */
+}
+
+/* Estilo para tarjetas del carrito */
+.tarjeta-producto {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.producto-imagen {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 1px solid #000;
+}
+
+.producto-detalle {
+    flex: 1;
+    font-family: Arial, sans-serif;
+}
+
+.producto-detalle p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.btn-eliminar {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.btn-eliminar:hover {
+    background-color: #ff1a1a;
+}
+

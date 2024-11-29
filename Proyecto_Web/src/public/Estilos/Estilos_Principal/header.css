@@ -40,12 +40,12 @@ button {
 
 
 .navbar__buttons__p {
-    width: 510px;
+    width: 390px;
     height: 50px;
 }
 
 div .navbar__buttons__c {
-    width: 510px;
+    width: 390px;
     border-radius: 20px;
     background-color: #F8B571;
     border: 2px solid black;
@@ -85,7 +85,7 @@ div .navbar__buttons__c a {
     padding: 3px;
     border-radius: 20px;
     border: 2px solid #474747;
-    width: 500px;
+    width: 380px;
 }
 
 .menu #menu-switch:checked + ul{
@@ -95,8 +95,6 @@ div .navbar__buttons__c a {
 .menu li{
     list-style: none;
     margin-bottom: 5px;
-    text-align: center;
-    padding: 3px;
 } 
 
 .menu a, .menu-mobile-label{
@@ -295,6 +293,7 @@ div .navbar__buttons__c a {
         margin-left: 30px;
         border-width: 0px;
         text-align: left;
+        padding: 3px;
     }
 
 }
