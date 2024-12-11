@@ -8,6 +8,30 @@ const productos = [
         imagen: "../images/scarface.jpg"
     },
     {
+        id: 7,
+        nombre: "Scarface",
+        categoria: "Acción",
+        descripcion: "Scarface (1983), dirigida por Brian De Palma y escrita por Oliver Stone, es un clásico del cine de gánsteres. La película narra la historia de Tony Montana (interpretado por Al Pacino), un inmigrante cubano que llega a Miami en busca del 'sueño americano'.",
+        precio: "25.00bs.-",
+        imagen: "../images/scarface.jpg"
+    },
+    {
+        id: 8,
+        nombre: "Scarface",
+        categoria: "Acción",
+        descripcion: "Scarface (1983), dirigida por Brian De Palma y escrita por Oliver Stone, es un clásico del cine de gánsteres. La película narra la historia de Tony Montana (interpretado por Al Pacino), un inmigrante cubano que llega a Miami en busca del 'sueño americano'.",
+        precio: "25.00bs.-",
+        imagen: "../images/scarface.jpg"
+    },
+    {
+        id: 9,
+        nombre: "Scarface",
+        categoria: "Acción",
+        descripcion: "Scarface (1983), dirigida por Brian De Palma y escrita por Oliver Stone, es un clásico del cine de gánsteres. La película narra la historia de Tony Montana (interpretado por Al Pacino), un inmigrante cubano que llega a Miami en busca del 'sueño americano'.",
+        precio: "25.00bs.-",
+        imagen: "../images/scarface.jpg"
+    },
+    {
         id: 2,
         nombre: "Luna de miel en familia",
         categoria: "Comedia",

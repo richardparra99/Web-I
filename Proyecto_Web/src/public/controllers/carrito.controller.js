@@ -3,8 +3,7 @@ const Carrito = db.Carrito;
 
 exports.createCart = async (req, res) => {
     const { carrito_id } = req.body;
-
-    // Validar que se proporcione un carrito_id
+    // validar
     if (!carrito_id) {
         return res.status(400).json({
             message: 'Se requiere proporcionar un carrito_id'
@@ -12,7 +11,6 @@ exports.createCart = async (req, res) => {
     }
 
     try {
-        // Verificar si el carrito ya existe
         const existingCart = await Carrito.findOne({
             where: { carrito_id: carrito_id }
         });
