@@ -1,7 +1,6 @@
-// carrito.routes.js
 const express = require('express');
 const router = express.Router();
-const db = require('../models'); // Asegúrate de que este archivo apunta a tus modelos.
+const db = require('../models'); 
 
 router.post('/agregar', async (req, res) => {
     const { productoId, cantidad } = req.body;
@@ -13,7 +12,6 @@ router.post('/agregar', async (req, res) => {
             return res.status(404).json({ message: 'Producto no encontrado' });
         }
 
-        // Agregar al carrito (puedes adaptar esta lógica a tu modelo de carrito)
         const carrito = await db.Carrito.findOrCreate({ where: { usuarioId: req.usuarioId } });
         await db.CarritoProductoVenta.create({
             carritoId: carrito[0].id,
