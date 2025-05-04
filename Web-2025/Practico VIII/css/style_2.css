@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  main{
+    width: 95%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body, html {
+    background-color: #C0C0C0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+  }
+
+  .caja_principal {
+    font-size: 15px;
+    background-color: white;
+    width: 700px;
+    padding-bottom: 1px;
+  }
+
+  h1 {
+    font-size: 16px;
+    padding: 20px 54px 10px 53px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2E74B5;
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+  }
+
+  .parrafo_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding: 0px 54px 0px 53px;
+  }
+
+  .parrafo_2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding: 0px 54px 0px 53px;
+  }
+  
+  h2 {
+    font-size: 16px;
+    padding: 0px 54px 0px 53px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2E74B5;
+  }
+
+  .imagen_portada_2 {
+    width: 22%;
+    float: left;
+    margin: 0px 20px 0px 50px;
+  }
+
+  .parrafo_3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding: 0px 54px 0px 53px;
+  }

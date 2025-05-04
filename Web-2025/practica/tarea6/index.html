@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form id="frm" action="http://form-receiver.vercel.app/api/form" method="post">
+            <fieldset>
+                <h1>Datos personales</h1>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" maxlength="100"><br>
+                </div>
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" maxlength="150">
+                </div>
+                <div>
+                    <label>Genero:</label>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="masculino" id="masculino">
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" name="femenino" id="femenino">
+                </div>
+                <div>
+                    <label for="celula_i">Celula de Identidad:</label>
+                    <input type="text" name="celula_i" id="celula_i" maxlength="15">
+                </div>
+                <div>
+                    <label for="fecha_n">Fecha de nacimiento:</label>
+                    <input type="date" name="fecha_n" id="fecha_n">
+                </div>
+                <div>
+                    <label for="telefono">Telefono de Contacto</label>
+                    <input type="text" name="telefono" id="telefono">
+                </div>
+                <div>
+                    <label>Ciudad de resistencia:</label>
+                    <select>
+                        <option value="SC">Santa Cruz</option>
+                        <option value="LP">La Paz</option>
+                        <option value="CB">Cochabamba</option>
+                        <option value="CH">Chuquisaca</option>
+                        <option value="TJ">Tarija</option>
+                        <option value="BN">Beni</option>
+                        <option value="PN">Pando</option>
+                        <option value="OR">Oruro</option>
+                        <option value="PT">Potosi</option>
+                        <option value="EX">Extranjero</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Distancia:</label>
+                    <select>
+                        <option value="5_km">5K</option>
+                        <option value="10_km">10K</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Talla de polera:</label>
+                    <select>
+                        <option value="talla_xs">XS</option>
+                        <option value="talla_s">S</option>
+                        <option value="talla_m">M</option>
+                        <option value="talla_l">L</option>
+                        <option value="talla_xl">XL</option>
+                        <option value="talla_xxl">XXL</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="nombre_ce">Nombre de contacto Emergencia:</label>
+                    <input type="text" name="nombre_ce" id="nombre_ce">
+                </div>
+                <div>
+                    <label for="telefono_ce">Telefono de contacto de Emergencia:</label>
+                    <input type="text" name="telefono_ce" id="telefono_ce">
+                </div>
+                <div>
+                    <label>Deportes de practica:</label><br>
+                    <input type="checkbox">
+                    <label>Running</label><br>
+                    <input type="checkbox">
+                    <label>Gimnasio</label><br>
+                    <input type="checkbox">
+                    <label>Natacion</label><br>
+                    <input type="checkbox">
+                    <label>Ciclismo</label><br>
+                    <input type="checkbox">
+                    <label>Crossfit</label><br>
+                    <input type="checkbox">
+                    <label>Calistenia</label><br>
+                    <input type="checkbox">
+                    <label>Otros</label>
+                    <!--<select>
+                        
+                        <option value="ciclismo">Ciclismo</option>
+                        <option value="crossfit">Crossfit</option>
+                        <option value="calistenia">Calistenia</option>
+                        <option value="otros">Otros</option>
+                    </select>-->
+                </div>
+                <div>
+                    <label>Comentarios y Sugerencias</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="termino">Acepto los terminos de la codiciones de la convocatoria</label>
+                    <input type="checkbox" id="termino">
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </div>
+                <a href="Convocatoria.pdf">haga clic a convocatoria</a>
+            </fieldset>
+        </form>
+    </body>
+</html>
