@@ -1,0 +1,42 @@
+.features{
+    display: none;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.features__item__title{
+    font-family: 'Bebas', sans-serif;
+    font-size: 20px;
+    color: #464646;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.features__item p{
+    font-family: 'HelveticaNeue', sans-serif;
+    font-size: 12px;
+}
+
+.features__item__middle{
+    margin: 0px 40px;
+}
+
+.feature__icon{
+    color: #9A9A9A;
+    float: left;
+    margin-right: 35px;
+    font-size: 42px;
+}
+
+.features__item a{
+    color: #474747;
+    font-family: 'Bebas',sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.features__item a i{
+    margin-right: 10px;
+    display: inline-block;
+}

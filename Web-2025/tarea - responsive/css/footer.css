@@ -1,0 +1,116 @@
+.footer {
+    display: block;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    background-color: #F7F7F7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p{
+    color: #9B9B9B;
+}
+
+.footer__parrafos {
+    text-align: center;
+    font-size: 12px;
+}
+
+strong {
+    color: #656565;
+}
+
+.latest-work_2 {
+    position: relative;
+    top: 20px;
+    height: 40px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.latest-work__title_2 {
+    text-align: center;
+    background-image: url('img/title-bg.png');
+    background-repeat: repeat-x;
+    color: transparent;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .footer {
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        background-color: #F7F7F7;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    p{
+        color: #9B9B9B;
+    }
+
+    .footer__parrafos {
+        text-align:start;
+    }
+
+    strong {
+        color: #656565;
+    }
+
+    .latest-work_2 {
+        position: relative;
+        top: 20px;
+        height: 40px;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    .latest-work__title_2 {
+        text-align: center;
+        background-image: url('img/title-bg.png');
+        background-repeat: repeat-x;
+        color: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer {
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        background-color: #F7F7F7;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    p{
+        color: #9B9B9B;
+    }
+
+    .footer__parrafos {
+        text-align:start;
+    }
+
+    strong {
+        color: #656565;
+    }
+
+    .latest-work_2 {
+        position: relative;
+        top: 20px;
+        height: 40px;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    .latest-work__title_2 {
+        text-align: center;
+        background-image: url('img/title-bg.png');
+        background-repeat: repeat-x;
+        color: transparent;
+    }
+
+}
