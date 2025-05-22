@@ -1,0 +1,17 @@
+.latest-work{
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.latest-work__title{
+    background-image: url('img/title-bg.png');
+    background-repeat: repeat-x;
+    font-family: Bebas, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.latest-work__title__text{
+    background-color: white;
+    display: inline-block;
+    padding: 0px 30px;
+}
