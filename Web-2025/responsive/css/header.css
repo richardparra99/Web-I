@@ -1,0 +1,229 @@
+.header {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+    padding-bottom: 25px;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    margin-left: 130px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.menu-mobile-label{
+    display: block;
+    margin: 0px 40px 5px;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid #474747;
+    color: white;
+}
+
+.menu ul, .menu #menu-switch:checked + ul{
+    display: block;
+    margin-top: 0px;
+}   
+
+.menu li{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 5px;
+    width: 332px;
+    color: white;
+    color: transparent;
+    border: 1px solid #474747;
+    padding: 5px 0px 5px 0px;
+}
+
+.menu ul{
+    display: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu-switch {
+    display: none;
+}
+
+.menu a, .menu-mobile-label{
+    font-family: 'Bebas', sans-serif;
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+.menu span{
+    color: #a5a5a5;
+}
+
+.menu span::after{
+    content: ' : ';
+}
+
+#select_idioma {
+    margin-left: 190px;
+    width: auto;
+    height: 30px;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .header {
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(25, 25, 25);
+        padding-bottom: 25px;
+    }
+
+    .logo {
+        width: 150px;
+        height: 50px;
+        margin-left: 340px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .menu-mobile-label{
+        display: none;
+    }
+
+    .menu ul, .menu #menu-switch:checked + ul{
+        display: flex;
+        margin-top: 25px;
+        margin-left: 80px;
+    }
+
+    .menu li{
+        list-style-type: none;
+        border-width: 0px;
+        width: auto;
+        color: white;
+    }
+
+    .menu ul a {
+        text-decoration: none;
+        color: #C2C2C2;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    #menu-switch {
+        display: none;
+    }
+
+    #select_idioma {
+        width: auto;
+        height: 30px;
+        background-color: rgb(25, 25, 25);
+        color: white;
+        border: none;
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #menu-switch {
+        display: none;
+    }
+
+    .menu a, .menu-mobile-label{
+        font-family: 'Bebas', sans-serif;
+        color: #474747;
+        text-decoration: none;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(25, 25, 25);
+        padding-bottom: 25px;
+    }
+
+    .logo {
+        width: 150px;
+        height: 50px;
+        margin-left: 120px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .menu-mobile-label{
+        display: none;
+    }
+
+    .menu ul, .menu #menu-switch:checked + ul{
+        display: flex;
+        margin-top: 25px;
+    }
+
+    .menu li{
+        list-style-type: none;
+        border-width: 0px;
+        width: auto;
+        color: white;
+    }
+
+    .menu ul a {
+        text-decoration: none;
+        color: #C2C2C2;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    #menu-switch {
+        display: none;
+    }
+
+    #select_idioma {
+        margin-right: 150px;
+        width: auto;
+        height: 30px;
+        background-color: rgb(25, 25, 25);
+        color: white;
+        border: none;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #menu-switch {
+        display: none;
+    }
+
+    .menu a, .menu-mobile-label{
+        font-family: 'Bebas', sans-serif;
+        color: #474747;
+        text-decoration: none;
+    }
+
+}

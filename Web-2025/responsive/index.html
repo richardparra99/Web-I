@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="css/cuerpo_encabezado.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/banner.css">
+        <link rel="stylesheet" href="css/seccion.css">
+        <link rel="stylesheet" href="css/seccion_2.css">
+        <link rel="stylesheet" href="css/footer.css">
+
+    </head>
+    <body>
+        <main class="main-container">
+            <header class="header">
+                <img src="img/logo.png" alt="imagen_logo" class="logo">
+                <nav class="menu">
+                    <label class="menu-mobile-label" for="menu-switch">
+                        <i class="fa-solid fa-bars"></i>
+                        Menu
+                    </label>
+                    <input id="menu-switch" type="checkbox">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Hotel
+                            </a>
+                        </li>
+                        <li>
+                            |
+                            <a href="#">
+                                Rooms & Suites
+                            </a>
+                        </li>
+                        <li>
+                            |
+                            <a href="#">
+                               Reservation
+                            </a>
+                        </li>
+                        <li>
+                            |
+                            <a href="#">
+                                Services
+                            </a>
+                        </li>
+                        <li>
+                            |
+                            <a href="#">
+                               Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <select name="English" id="select_idioma">
+                    <option value="English">EN</option>
+                    <option value="Spanish">ES</option>
+                </select>
+            </header>
+
+            <figure class="banner">
+                <img src="img/banner.png" alt="imagen_banner" class="imagen_banner">
+
+                <div class="seccion">
+                    <div class="caja_seccion">
+                        <h1 class="seccion_title">Book a room online</h1>
+                        <p class="seccion_parrafo">Lorem ispum solor sid ahmed loresin vane.</p>
+                    </div>
+
+                    <form id="caja-form">
+                        <div class="formulario-caja">
+                            <label class="formulario-caja-titulo">Type of room:</label>
+                            <select id="select-reservas">
+                                <option value="1">Select a type of room</option>
+                                <option value="2">Single</option>
+                                <option value="3">Double</option>
+                                <option value="4">Suite</option>
+                            </select>
+                        </div>
+                        <div class="formulario-caja">
+                            <label class="formulario-caja-titulo">Check-in date:</label>
+                            <input type="date">
+                        </div>
+                        <div class="formulario-caja">
+                            <label class="formulario-caja-titulo">Check-out date:</label>
+                            <input type="date">
+                        </div>
+                        <div class="formulario-caja">
+                            <label class="formulario-caja-titulo">Adults</label>
+                            <select id="select-reservas-adults">
+                                <option>1</option>
+                                <option>2</option>
+                            </select>
+                        </div>
+                        <div class="formulario-caja">
+                            <label class="formulario-caja-titulo">Children</label>
+                            <select id="select-reservas-children">
+                                <option>0</option>
+                                <option>1</option>
+                            </select>
+                        </div>
+                        <button type="submit">Book now</button>
+                    </form>
+                </div>
+            </figure>
+
+            <section class="seccion_listas">
+                <h2 class="texto">2</h2>
+                <article class="seccion_listas_articulos">
+                    <img src="img/room1.png" alt="imagen_1" class="seccion_listas_img">
+                    <h2>Single room <strong>100 €</strong></h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore manga aliquam erat volutpat.
+                    </p>
+                </article>
+                <article class="seccion_listas_articulos">
+                    <img src="img/room2.png" alt="imagen_1" class="seccion_listas_img">
+                    <h2>Single room <strong>180 €</strong></h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore manga aliquam erat volutpat.
+                    </p>
+                </article>
+                <article class="seccion_listas_articulos">
+                    <img src="img/suite.png" alt="imagen_1" class="seccion_listas_img">
+                    <h2>Single room <strong>210 €</strong></h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore manga aliquam erat volutpat.
+                    </p>
+                </article>
+            </section>
+
+            <footer class="footer">
+                <div class="footer-left">
+                    © 2012 Paradise Hotel. All Rights Reserved.
+                </div>
+
+                <div class="footer-center">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-flickr"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+
+                <div class="footer-right">
+                    <a href="#">Home</a>
+                    <a href="#">Rooms & Suites</a>
+                    <a href="#">Reservation</a>
+                    <a href="#">Contact</a>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
