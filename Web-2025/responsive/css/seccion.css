@@ -1,0 +1,334 @@
+.seccion {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    background-color: white;
+    margin-left: 80px;
+    top: 170px;
+}
+
+.caja_seccion {
+    background-color: #F3F3F3;
+    border-radius: 1px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.seccion_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: -10px;
+}
+
+.seccion_parrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #6F6E6E;
+    margin-left: 35px;
+    width: 180px;
+}
+
+div #caja-form {
+    display:block;
+    justify-content: center;
+    width: auto;
+    height: 400%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding-top: 1px;
+    margin-top: 2px;
+}
+
+.banner .seccion {
+    border: 2px solid #D3D3D3;
+    border-radius: 5px;
+}
+
+form .formulario-caja {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 30px;
+    margin-top:10px;
+}
+
+.formulario-caja .formulario-caja-titulo {
+    color: #737171;
+}
+
+.formulario-caja #select-reservas {
+    margin: 0px 30px 0px 1px;
+    padding: 10px 20px 10px 10px;
+    background-color: white;
+    border: 2px solid #D6D4D4;
+    border-radius: 5px;
+    color: #737171;
+}
+
+.formulario-caja #select-reservas-adults {
+    margin: 0px 30px 0px 1px;
+    padding: 10px 20px 10px 10px;
+    background-color: white;
+    border: 2px solid #D6D4D4;
+    border-radius: 5px;
+    color: #737171;
+}
+
+.formulario-caja #select-reservas-children {
+    margin: 0px 30px 0px 1px;
+    padding: 10px 20px 10px 10px;
+    background-color: white;
+    border: 2px solid #D6D4D4;
+    border-radius: 5px;
+    color: #737171;
+}
+
+.formulario-caja input {
+    margin: 0px 30px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    border: 2px solid #D6D4D4;
+    border-radius: 5px;
+    color: #737171;
+}
+
+#caja-form button {
+    margin: 10px 5px 2px 70px;
+    padding: 10px 20px 10px 20px;
+    background-color: #32A2E3;
+    border: 0px solid;
+    color: white;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .seccion {
+    width: 95%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    margin-left: 20px;
+    top: 340px;
+    }
+
+    .caja_seccion {
+        background-color: #F3F3F3;
+        border-radius: 1px;
+        height: 100%;
+        padding-top: 1px;
+        padding-bottom: 0px;
+    }
+
+    .seccion_title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        width: 250px;
+        text-align: center;
+        padding-top: 5px;
+        margin-top: 0px;
+        margin-bottom: -10px;
+        margin-left: 280px;
+    }
+
+    .seccion_parrafo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #6F6E6E;
+        margin-left: 330px;
+        width: 180px;
+        padding-bottom: 10px;
+    }
+
+    div #caja-form {
+        display:flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 0px;
+        margin-top: -5px;
+        margin-bottom: 10px;
+    }
+
+    .banner .seccion {
+        border: 2px solid #D3D3D3;
+        border-radius: 5px;
+    }
+
+    form .formulario-caja {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-right: -20px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .formulario-caja .formulario-caja-titulo {
+        color: #737171;
+    }
+
+    .formulario-caja #select-reservas {
+        margin: 0px 30px 0px 1px;
+        padding: 10px 20px 10px 10px;
+        background-color: white;
+        border: 2px solid #D6D4D4;
+        border-radius: 5px;
+        color: #737171;
+    }
+
+    .formulario-caja #select-reservas-adults {
+        margin: 0px 30px 0px 1px;
+        padding: 10px 20px 10px 10px;
+        background-color: white;
+        border: 2px solid #D6D4D4;
+        border-radius: 5px;
+        color: #737171;
+    }
+
+    .formulario-caja #select-reservas-children {
+        margin: 0px 30px 0px 1px;
+        padding: 10px 20px 10px 10px;
+        background-color: white;
+        border: 2px solid #D6D4D4;
+        border-radius: 5px;
+        color: #737171;
+    }
+
+    .formulario-caja input {
+        margin: 0px 30px 0px 0px;
+        padding: 10px 10px 10px 10px;
+        background-color: white;
+        border: 2px solid #D6D4D4;
+        border-radius: 5px;
+        color: #737171;
+    }
+
+    #caja-form button {
+        margin: 0px 5px 2px 0px;
+        padding: 10px 20px 10px 20px;
+        background-color: #32A2E3;
+        border: 0px solid;
+        color: white;
+    }
+}
+
+@media (min-width: 992px) {
+    .seccion {
+    width: 75%;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    margin-left: 180px;
+    top: 525px;
+    }
+
+    .caja_seccion {
+        background-color: #F3F3F3;
+        border-radius: 1px;
+        height: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .seccion_title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        width: 250px;
+        text-align: center;
+        padding-top: 5px;
+        margin-bottom: -10px;
+    }
+
+    .seccion_parrafo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #6F6E6E;
+        margin-left: 35px;
+        width: 180px;
+    }
+
+    div #caja-form {
+        display:flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: center;
+        width: 80%;
+        height: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .banner .seccion {
+        border: 2px solid #D3D3D3;
+        border-radius: 5px;
+    }
+
+    form .formulario-caja {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-right: -20px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .formulario-caja .formulario-caja-titulo {
+        color: #737171;
+    }
+
+    .formulario-caja #select-reservas {
+        margin: 0px 30px 0px 1px;
+        padding: 10px 20px 10px 10px;
+        background-color: white;
+        border: 2px solid #D6D4D4;
+        border-radius: 5px;
+        color: #737171;
+    }
+
+    .formulario-caja #select-reservas-adults {
+        margin: 0px 30px 0px 1px;
+        padding: 10px 20px 10px 10px;
+        background-color: white;
+        border: 2px solid #D6D4D4;
+        border-radius: 5px;
+        color: #737171;
+    }
+
+    .formulario-caja #select-reservas-children {
+        margin: 0px 30px 0px 1px;
+        padding: 10px 20px 10px 10px;
+        background-color: white;
+        border: 2px solid #D6D4D4;
+        border-radius: 5px;
+        color: #737171;
+    }
+
+    .formulario-caja input {
+        margin: 0px 30px 0px 0px;
+        padding: 10px 10px 10px 10px;
+        background-color: white;
+        border: 2px solid #D6D4D4;
+        border-radius: 5px;
+        color: #737171;
+    }
+
+    #caja-form button {
+        margin: 0px 5px 2px 0px;
+        padding: 10px 20px 10px 20px;
+        background-color: #32A2E3;
+        border: 0px solid;
+        color: white;
+    }
+}
